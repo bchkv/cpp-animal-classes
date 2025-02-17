@@ -1,7 +1,9 @@
 #ifndef CRUSTACEAN_H
 #define CRUSTACEAN_H
 
-class Crustacean {
+#include "Animal.h"
+
+class Crustacean : public Animal {
 public:
     void makeSound();
 };

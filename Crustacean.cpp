@@ -1,7 +1,5 @@
 #include "Crustacean.h"
-#include <iostream>
 
 void Crustacean::makeSound() {
-    std::cout << "Click-click!"
-;
+    std::cout << "Click-click!\n";
 }

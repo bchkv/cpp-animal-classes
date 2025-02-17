@@ -1,7 +1,9 @@
 #ifndef MAMMAL_H
 #define MAMMAL_H
 
-class Mammal {
+#include "Animal.h"
+
+class Mammal : public Animal {
 public:
     void makeSound();
 };

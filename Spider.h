@@ -1,10 +1,11 @@
 #ifndef SPIDER_H
 #define SPIDER_H
 
-class Spider {
+#include "Animal.h"
+
+class Spider : public Animal {
 public:
     void makeSound();
 };
 
 #endif // SPIDER_H
-
